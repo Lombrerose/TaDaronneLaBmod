@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tdlb",
+	"version": "${version}",
+	"name": "ta daronne la B",
+	"description": "test mod Ta Daronne La B pour le PÉTÉ",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tdlb/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lombrerose.tdlb.TaDaronneLaB"
+		],
+		"fabric-datagen": [
+			"net.lombrerose.tdlb.TaDaronneLaBDataGenerator"
+		],
+      "client": [
+        "net.lombrerose.tdlb.TaDaronneLaBClient"
+      ]
+	},
+	"mixins": [
+		"tdlb.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
