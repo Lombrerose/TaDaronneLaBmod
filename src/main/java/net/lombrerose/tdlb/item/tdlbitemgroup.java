@@ -17,6 +17,11 @@ public class tdlbitemgroup {
                     .displayName(Text.translatable("itemgroup.tdlb.ta_daronne_la_b"))
                     .entries((displayContext, entries) -> {
                         entries.add(tdlbitem.TABLEAU_DIVIN);
+                        entries.add(tdlbitem.EPEE_DIVINE);
+                        entries.add(tdlbitem.HACHE_DIVINE);
+                        entries.add(tdlbitem.PIOCHE_DIVINE);
+                        entries.add(tdlbitem.FAUX_DIVINE);
+                        entries.add(tdlbitem.PELLE_DIVINE);
                     })
 
 
