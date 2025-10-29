@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "tdlb:tableau_divin"
+    }
+  },
+  "pattern": [
+    "TT",
+    "S ",
+    "S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tdlb:faux_divine"
+  }
+}
